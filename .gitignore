@@ -1,0 +1,48 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Thumbs.db:encryptable
+desktop.ini
+
+# Environment
+*.env
+!.env.example
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build
+/frontend/dist/
+/frontend/build/
+
+# Laravel
+/backend/bootstrap/cache/
+/backend/storage/framework/cache/
+/backend/storage/framework/sessions/
+/backend/storage/framework/views/
+/backend/storage/logs/
+/backend/public/hot
+/backend/public/storage
+
+# Composer
+/backend/composer.phar
+
+# PHP
+*.cache
+
+# Logs
+*.log
+
+# Archives & large binary files
+*.pdf
+*.zip
+*.tar.gz
